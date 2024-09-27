@@ -18,3 +18,5 @@ CMD [ "python", "-m", "flask", "run", "--host=0.0.0.0" ]
 
 # docker build -t flaskapp:latest .
 # docker run --name flaskapp --rm -d -p 8090:5000 flaskapp:latest
+
+# VOLUME [ "/data", "/app" ]
